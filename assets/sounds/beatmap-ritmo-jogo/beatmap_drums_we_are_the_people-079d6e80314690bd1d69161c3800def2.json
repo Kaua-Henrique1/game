@@ -1,0 +1,350 @@
+[
+  {
+    "timestamp": 53.186,
+    "coluna": 1
+  },
+  {
+    "timestamp": 55.138,
+    "coluna": 2
+  },
+  {
+    "timestamp": 57.089,
+    "coluna": 3
+  },
+  {
+    "timestamp": 61.969,
+    "coluna": 4
+  },
+  {
+    "timestamp": 62.945,
+    "coluna": 3
+  },
+  {
+    "timestamp": 63.92,
+    "coluna": 2
+  },
+  {
+    "timestamp": 64.898,
+    "coluna": 1
+  },
+  {
+    "timestamp": 65.873,
+    "coluna": 2
+  },
+  {
+    "timestamp": 66.849,
+    "coluna": 3
+  },
+  {
+    "timestamp": 68.799,
+    "coluna": 4
+  },
+  {
+    "timestamp": 70.749,
+    "coluna": 3
+  },
+  {
+    "timestamp": 71.728,
+    "coluna": 2
+  },
+  {
+    "timestamp": 72.702,
+    "coluna": 1
+  },
+  {
+    "timestamp": 73.677,
+    "coluna": 2
+  },
+  {
+    "timestamp": 74.653,
+    "coluna": 3
+  },
+  {
+    "timestamp": 76.605,
+    "coluna": 4
+  },
+  {
+    "timestamp": 77.58,
+    "coluna": 3
+  },
+  {
+    "timestamp": 79.531,
+    "coluna": 2
+  },
+  {
+    "timestamp": 80.508,
+    "coluna": 1
+  },
+  {
+    "timestamp": 81.484,
+    "coluna": 2
+  },
+  {
+    "timestamp": 82.458,
+    "coluna": 3
+  },
+  {
+    "timestamp": 84.41,
+    "coluna": 4
+  },
+  {
+    "timestamp": 86.363,
+    "coluna": 3
+  },
+  {
+    "timestamp": 88.314,
+    "coluna": 2
+  },
+  {
+    "timestamp": 89.289,
+    "coluna": 1
+  },
+  {
+    "timestamp": 95.147,
+    "coluna": 2
+  },
+  {
+    "timestamp": 99.047,
+    "coluna": 3
+  },
+  {
+    "timestamp": 114.662,
+    "coluna": 4
+  },
+  {
+    "timestamp": 120.515,
+    "coluna": 3
+  },
+  {
+    "timestamp": 123.443,
+    "coluna": 2
+  },
+  {
+    "timestamp": 132.223,
+    "coluna": 1
+  },
+  {
+    "timestamp": 133.199,
+    "coluna": 2
+  },
+  {
+    "timestamp": 135.151,
+    "coluna": 3
+  },
+  {
+    "timestamp": 136.126,
+    "coluna": 4
+  },
+  {
+    "timestamp": 138.079,
+    "coluna": 3
+  },
+  {
+    "timestamp": 139.055,
+    "coluna": 2
+  },
+  {
+    "timestamp": 140.03,
+    "coluna": 1
+  },
+  {
+    "timestamp": 141.004,
+    "coluna": 2
+  },
+  {
+    "timestamp": 142.955,
+    "coluna": 3
+  },
+  {
+    "timestamp": 143.933,
+    "coluna": 4
+  },
+  {
+    "timestamp": 144.91,
+    "coluna": 3
+  },
+  {
+    "timestamp": 147.836,
+    "coluna": 2
+  },
+  {
+    "timestamp": 148.81,
+    "coluna": 1
+  },
+  {
+    "timestamp": 150.762,
+    "coluna": 2
+  },
+  {
+    "timestamp": 151.738,
+    "coluna": 3
+  },
+  {
+    "timestamp": 152.715,
+    "coluna": 4
+  },
+  {
+    "timestamp": 156.618,
+    "coluna": 3
+  },
+  {
+    "timestamp": 158.57,
+    "coluna": 2
+  },
+  {
+    "timestamp": 160.521,
+    "coluna": 1
+  },
+  {
+    "timestamp": 161.495,
+    "coluna": 2
+  },
+  {
+    "timestamp": 162.474,
+    "coluna": 3
+  },
+  {
+    "timestamp": 167.35,
+    "coluna": 4
+  },
+  {
+    "timestamp": 168.327,
+    "coluna": 3
+  },
+  {
+    "timestamp": 174.183,
+    "coluna": 2
+  },
+  {
+    "timestamp": 176.134,
+    "coluna": 1
+  },
+  {
+    "timestamp": 177.108,
+    "coluna": 2
+  },
+  {
+    "timestamp": 182.964,
+    "coluna": 3
+  },
+  {
+    "timestamp": 183.939,
+    "coluna": 4
+  },
+  {
+    "timestamp": 184.916,
+    "coluna": 3
+  },
+  {
+    "timestamp": 185.889,
+    "coluna": 2
+  },
+  {
+    "timestamp": 188.819,
+    "coluna": 1
+  },
+  {
+    "timestamp": 189.792,
+    "coluna": 2
+  },
+  {
+    "timestamp": 190.769,
+    "coluna": 3
+  },
+  {
+    "timestamp": 191.744,
+    "coluna": 4
+  },
+  {
+    "timestamp": 192.72,
+    "coluna": 3
+  },
+  {
+    "timestamp": 193.695,
+    "coluna": 2
+  },
+  {
+    "timestamp": 195.646,
+    "coluna": 1
+  },
+  {
+    "timestamp": 196.623,
+    "coluna": 2
+  },
+  {
+    "timestamp": 197.598,
+    "coluna": 3
+  },
+  {
+    "timestamp": 198.574,
+    "coluna": 4
+  },
+  {
+    "timestamp": 199.552,
+    "coluna": 3
+  },
+  {
+    "timestamp": 200.527,
+    "coluna": 2
+  },
+  {
+    "timestamp": 204.428,
+    "coluna": 1
+  },
+  {
+    "timestamp": 205.406,
+    "coluna": 2
+  },
+  {
+    "timestamp": 206.381,
+    "coluna": 3
+  },
+  {
+    "timestamp": 207.357,
+    "coluna": 4
+  },
+  {
+    "timestamp": 208.335,
+    "coluna": 3
+  },
+  {
+    "timestamp": 211.261,
+    "coluna": 2
+  },
+  {
+    "timestamp": 212.236,
+    "coluna": 1
+  },
+  {
+    "timestamp": 215.162,
+    "coluna": 2
+  },
+  {
+    "timestamp": 220.043,
+    "coluna": 3
+  },
+  {
+    "timestamp": 221.02,
+    "coluna": 4
+  },
+  {
+    "timestamp": 229.797,
+    "coluna": 3
+  },
+  {
+    "timestamp": 232.729,
+    "coluna": 2
+  },
+  {
+    "timestamp": 235.654,
+    "coluna": 1
+  },
+  {
+    "timestamp": 236.631,
+    "coluna": 2
+  },
+  {
+    "timestamp": 239.556,
+    "coluna": 3
+  }
+]

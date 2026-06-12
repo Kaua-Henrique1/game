@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>❤️Giovanna Jogos❤️</title>
+
+    <style>
+        /* ── Reset ─────────────────────────────────────────────────────────── */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ── Variáveis de paleta ─────────────────────────────────────────────
+           Inspiração: Barbie Life in the Dreamhouse — closet de alta costura.
+           Rosa boutique, dourado acetinado, creme iluminado.
+        ──────────────────────────────────────────────────────────────────── */
+        :root {
+            --rose-deep:    #c0135a;   /* rosa profundo — prateleiras */
+            --rose-mid:     #e8407a;   /* rosa médio — divisórias */
+            --rose-soft:    #f9b8cf;   /* rosa suave — iluminação de nicho */
+            --rose-blush:   #fce4ec;   /* blush — fundo de nicho iluminado */
+            --gold:         #d4af37;   /* dourado acetinado — moldura/borda */
+            --gold-light:   #f0d060;   /* dourado claro — realce */
+            --cream:        #fff8f2;   /* creme — parede do closet */
+            --shadow-dark:  rgba(80, 0, 30, 0.55);  /* sombra profunda das prateleiras */
+            --shadow-mid:   rgba(120, 20, 60, 0.30);
+            --overlay-dark: rgba(10, 0, 5, 0.50);   /* overlay HUD e canvas */
+        }
+
+        /* ── Fundo geral — parede do closet ─────────────────────────────────
+           Gradiente radial (luz de spot central) + linear (profundidade vertical).
+           100% CSS, zero imagens externas → nítido em 4K.
+        ──────────────────────────────────────────────────────────────────── */
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+            /* Camada 1: spot de luz no centro (simula iluminação de closet) */
+            /* Camada 2: gradiente vertical de profundidade (teto → piso) */
+            background:
+                radial-gradient(
+                    ellipse 70% 60% at 50% 42%,
+                    var(--rose-blush) 0%,
+                    var(--rose-soft)  30%,
+                    #e06090           65%,
+                    var(--rose-deep)  100%
+                ),
+                linear-gradient(
+                    180deg,
+                    #3d0020 0%,
+                    #7a1040 20%,
+                    #c0135a 50%,
+                    #7a1040 80%,
+                    #3d0020 100%
+                );
+            background-blend-mode: screen;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* ── Prateleiras decorativas — pseudo-elementos no body ──────────────
+           Divisórias horizontais simulando araras e nichos do closet.
+           Criadas com ::before (prateleiras) e ::after (divisória vertical).
+        ──────────────────────────────────────────────────────────────────── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+
+            /* Três prateleiras horizontais via repeating-linear-gradient */
+            background:
+                /* Prateleira superior */
+                linear-gradient(
+                    180deg,
+                    transparent 18%,
+                    var(--shadow-dark) 18.2%,
+                    var(--rose-deep)   18.8%,
+                    rgba(212,175,55,.15) 19.5%,
+                    transparent 20%
+                ),
+                /* Prateleira do meio */
+                linear-gradient(
+                    180deg,
+                    transparent 48%,
+                    var(--shadow-dark) 48.2%,
+                    var(--rose-deep)   48.8%,
+                    rgba(212,175,55,.15) 49.5%,
+                    transparent 50%
+                ),
+                /* Prateleira inferior */
+                linear-gradient(
+                    180deg,
+                    transparent 78%,
+                    var(--shadow-dark) 78.2%,
+                    var(--rose-deep)   78.8%,
+                    rgba(212,175,55,.15) 79.5%,
+                    transparent 80%
+                );
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+
+            /* Divisórias verticais: colunas laterais do closet */
+            background:
+                linear-gradient(
+                    90deg,
+                    transparent 15%,
+                    var(--shadow-mid) 15.3%,
+                    var(--rose-deep) 15.8%,
+                    rgba(212,175,55,.10) 16.3%,
+                    transparent 17%
+                ),
+                linear-gradient(
+                    90deg,
+                    transparent 83%,
+                    rgba(212,175,55,.10) 83.7%,
+                    var(--rose-deep) 84.2%,
+                    var(--shadow-mid) 84.7%,
+                    transparent 85%
+                );
+        }
+
+        /* ── Wrapper externo — posiciona tudo acima dos pseudo-elementos ─── */
+        #game-wrapper {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ── Moldura do closet — batentes de porta em dourado ────────────────
+           Camada visual ao redor do canvas: simula os batentes de vidro/espelho
+           de um armário embutido elegante.
+        ──────────────────────────────────────────────────────────────────── */
+        #game-frame {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            /* Limite rígido de aspect ratio — impede distorção do LibGDX */
+            width:  min(100vw, calc(100vh * 16 / 9));
+            height: min(100vh, calc(100vw *  9 / 16));
+            max-width:  1280px;
+            max-height:  720px;
+
+            /* Moldura dourada em camadas: borda externa + brilho interno */
+            border: 3px solid var(--gold);
+            outline: 1px solid var(--gold-light);
+            outline-offset: 4px;
+
+            /* Sombra projetada do armário: profundidade e reflexo */
+            box-shadow:
+                /* sombra externa (profundidade do armário) */
+                0  8px 40px 0   rgba(10, 0,  5,  0.70),
+                0  0   0   6px  rgba(10, 0,  5,  0.40),
+                /* reflexo dourado nas bordas */
+                inset 0  2px  6px 0 rgba(212, 175, 55, 0.25),
+                inset 0 -2px  6px 0 rgba(212, 175, 55, 0.15),
+                /* brilho de espelho suave no centro */
+                inset 0  0   60px 0 rgba(252, 228, 236, 0.06);
+
+            /* Cantos levemente arredondados — estética de porta de armário */
+            border-radius: 4px;
+            overflow: hidden;
+
+            background: #000;   /* fallback enquanto o canvas carrega */
+        }
+
+        /* Detalhes de canto da moldura — parafusos decorativos dourados */
+        #game-frame::before,
+        #game-frame::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 35%, var(--gold-light), var(--gold), #a07820);
+            box-shadow: 0 1px 4px rgba(0,0,0,.6);
+            z-index: 10;
+            pointer-events: none;
+        }
+        #game-frame::before { top: 10px;  left:  10px; }
+        #game-frame::after  { top: 10px;  right: 10px; }
+
+        /* Parafusos inferiores via wrapper extra (sem JS extra) */
+        #game-frame-inner::before,
+        #game-frame-inner::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 35%, var(--gold-light), var(--gold), #a07820);
+            box-shadow: 0 1px 4px rgba(0,0,0,.6);
+            z-index: 10;
+            pointer-events: none;
+        }
+        #game-frame-inner::before { bottom: 10px; left:  10px; }
+        #game-frame-inner::after  { bottom: 10px; right: 10px; }
+
+        #game-frame-inner {
+            position: relative;
+            width:  100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ── Contêiner do canvas gerado pelo LibGDX/GWT ─────────────────────
+           O GWT injeta o canvas como filho direto de #embed-HtmlGame.
+           Garantimos que ele preencha o frame sem distorção.
+        ──────────────────────────────────────────────────────────────────── */
+        #embed-HtmlGame {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:  100%;
+            height: 100%;
+        }
+
+        /* Canvas gerado pelo LibGDX — preenche o frame e preserva proporção */
+        #embed-HtmlGame canvas {
+            display: block;
+            outline: none;
+            /* Força o canvas a ocupar todo o frame sem distorção */
+            width:  100% !important;
+            height: 100% !important;
+            /* Melhora a nitidez em displays HiDPI (pixel art) */
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+
+        /* ── Tela de carregamento ────────────────────────────────────────────
+           Aparece sobre a moldura enquanto o GWT compila/carrega.
+           Mantém a ambientação do closet com overlay dourado animado.
+        ──────────────────────────────────────────────────────────────────── */
+        #loading {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                135deg,
+                #2a0015 0%,
+                #6a0f35 40%,
+                #2a0015 100%
+            );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            z-index: 9999;
+            border-radius: inherit;
+        }
+
+        #loading h1 {
+            font-size: clamp(1.4rem, 3vw, 2.4rem);
+            color: var(--rose-soft);
+            text-shadow:
+                0 0 20px var(--rose-mid),
+                0 0 40px rgba(232, 64, 122, 0.4);
+            letter-spacing: 0.05em;
+        }
+
+        #loading p {
+            font-size: clamp(0.75rem, 1.5vw, 1rem);
+            color: var(--gold-light);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            animation: pulse 1.6s ease-in-out infinite;
+        }
+
+        /* Barra de progresso decorativa */
+        #loading-bar-track {
+            width: clamp(160px, 30%, 260px);
+            height: 4px;
+            background: rgba(255,255,255,0.12);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        #loading-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--rose-mid), var(--gold-light));
+            border-radius: 2px;
+            animation: loading-bar 2.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50%       { opacity: 0.35; }
+        }
+
+        @keyframes loading-bar {
+            0%   { width: 0%;   opacity: 1; }
+            70%  { width: 100%; opacity: 1; }
+            100% { width: 100%; opacity: 0; }
+        }
+
+        /* ── Rodapé decorativo fora do frame ─────────────────────────────────
+           Título do jogo abaixo da moldura, garantindo que o texto HUD interno
+           (LibGDX) não seja cortado pela moldura.
+        ──────────────────────────────────────────────────────────────────── */
+        #game-caption {
+            position: absolute;
+            bottom: calc(50% - min(50vh, calc(100vw * 9/32)) - 28px);
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: rgba(249, 184, 207, 0.55);
+            font-size: clamp(0.6rem, 1vw, 0.78rem);
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            pointer-events: none;
+            user-select: none;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrapper raiz — acima dos pseudo-elementos de prateleira do body -->
+    <div id="game-wrapper">
+
+        <!-- Moldura estilo porta de armário -->
+        <div id="game-frame">
+            <div id="game-frame-inner">
+
+                <!-- Tela de carregamento — ocultada quando o canvas GWT aparecer -->
+                <div id="loading">
+                    <h1>Ritmo do Coração ❤️</h1>
+                    <div id="loading-bar-track">
+                        <div id="loading-bar-fill"></div>
+                    </div>
+                    <p>Carregando...</p>
+                </div>
+
+                <!--
+                    Container onde o LibGDX/GWT renderiza o canvas do jogo.
+                    O id DEVE ser "embed-" + nome do módulo GWT (rename-to em HtmlGame.gwt.xml).
+                -->
+                <div id="embed-HtmlGame"></div>
+
+            </div><!-- /#game-frame-inner -->
+        </div><!-- /#game-frame -->
+
+        <!-- Legenda abaixo da moldura -->
+        <div id="game-caption">um presente feito com amor ❤</div>
+
+    </div><!-- /#game-wrapper -->
+
+    <!--
+        Script gerado pelo compilador GWT.
+        "HtmlGame" = rename-to em HtmlGame.gwt.xml = argumento ao compilador GWT.
+    -->
+    <script type="text/javascript" src="HtmlGame/HtmlGame.nocache.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            var loading   = document.getElementById('loading');
+            var container = document.getElementById('embed-HtmlGame');
+            if (!loading || !container) return;
+
+            // Oculta o loading assim que o LibGDX inserir o canvas
+            var observer = new MutationObserver(function () {
+                var canvas = container.querySelector('canvas');
+                if (canvas) {
+                    // Fade-out suave da tela de carregamento
+                    loading.style.transition = 'opacity 0.5s ease';
+                    loading.style.opacity    = '0';
+                    setTimeout(function () {
+                        loading.style.display = 'none';
+                    }, 500);
+                    observer.disconnect();
+                }
+            });
+            observer.observe(container, { childList: true, subtree: true });
+
+            // Fallback se o canvas já existia antes do observer
+            if (container.querySelector('canvas')) {
+                loading.style.display = 'none';
+                observer.disconnect();
+            }
+        })();
+    </script>
+
+</body>
+</html>

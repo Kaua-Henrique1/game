@@ -1,0 +1,994 @@
+[
+  {
+    "timestamp": 3.292,
+    "coluna": 1
+  },
+  {
+    "timestamp": 3.311,
+    "coluna": 2
+  },
+  {
+    "timestamp": 3.335,
+    "coluna": 3
+  },
+  {
+    "timestamp": 3.339,
+    "coluna": 4
+  },
+  {
+    "timestamp": 4.168,
+    "coluna": 3
+  },
+  {
+    "timestamp": 4.186,
+    "coluna": 2
+  },
+  {
+    "timestamp": 4.211,
+    "coluna": 1
+  },
+  {
+    "timestamp": 6.911,
+    "coluna": 2
+  },
+  {
+    "timestamp": 6.924,
+    "coluna": 3
+  },
+  {
+    "timestamp": 6.999,
+    "coluna": 4
+  },
+  {
+    "timestamp": 9.797,
+    "coluna": 3
+  },
+  {
+    "timestamp": 9.799,
+    "coluna": 2
+  },
+  {
+    "timestamp": 9.826,
+    "coluna": 1
+  },
+  {
+    "timestamp": 9.839,
+    "coluna": 2
+  },
+  {
+    "timestamp": 9.852,
+    "coluna": 3
+  },
+  {
+    "timestamp": 9.867,
+    "coluna": 4
+  },
+  {
+    "timestamp": 9.88,
+    "coluna": 3
+  },
+  {
+    "timestamp": 9.909,
+    "coluna": 2
+  },
+  {
+    "timestamp": 9.924,
+    "coluna": 1
+  },
+  {
+    "timestamp": 11.392,
+    "coluna": 2
+  },
+  {
+    "timestamp": 11.406,
+    "coluna": 3
+  },
+  {
+    "timestamp": 11.429,
+    "coluna": 4
+  },
+  {
+    "timestamp": 12.452,
+    "coluna": 3
+  },
+  {
+    "timestamp": 14.2,
+    "coluna": 2
+  },
+  {
+    "timestamp": 16.922,
+    "coluna": 1
+  },
+  {
+    "timestamp": 17.022,
+    "coluna": 2
+  },
+  {
+    "timestamp": 17.098,
+    "coluna": 3
+  },
+  {
+    "timestamp": 17.116,
+    "coluna": 4
+  },
+  {
+    "timestamp": 17.154,
+    "coluna": 3
+  },
+  {
+    "timestamp": 17.963,
+    "coluna": 2
+  },
+  {
+    "timestamp": 18.034,
+    "coluna": 1
+  },
+  {
+    "timestamp": 18.088,
+    "coluna": 2
+  },
+  {
+    "timestamp": 18.106,
+    "coluna": 3
+  },
+  {
+    "timestamp": 18.438,
+    "coluna": 4
+  },
+  {
+    "timestamp": 18.968,
+    "coluna": 3
+  },
+  {
+    "timestamp": 19.041,
+    "coluna": 2
+  },
+  {
+    "timestamp": 19.057,
+    "coluna": 1
+  },
+  {
+    "timestamp": 19.079,
+    "coluna": 2
+  },
+  {
+    "timestamp": 19.093,
+    "coluna": 3
+  },
+  {
+    "timestamp": 19.111,
+    "coluna": 4
+  },
+  {
+    "timestamp": 19.683,
+    "coluna": 3
+  },
+  {
+    "timestamp": 22.464,
+    "coluna": 2
+  },
+  {
+    "timestamp": 22.481,
+    "coluna": 1
+  },
+  {
+    "timestamp": 24.581,
+    "coluna": 2
+  },
+  {
+    "timestamp": 24.595,
+    "coluna": 3
+  },
+  {
+    "timestamp": 24.613,
+    "coluna": 4
+  },
+  {
+    "timestamp": 25.231,
+    "coluna": 3
+  },
+  {
+    "timestamp": 25.246,
+    "coluna": 2
+  },
+  {
+    "timestamp": 27.952,
+    "coluna": 1
+  },
+  {
+    "timestamp": 28.062,
+    "coluna": 2
+  },
+  {
+    "timestamp": 28.076,
+    "coluna": 3
+  },
+  {
+    "timestamp": 28.997,
+    "coluna": 4
+  },
+  {
+    "timestamp": 29.045,
+    "coluna": 3
+  },
+  {
+    "timestamp": 29.065,
+    "coluna": 2
+  },
+  {
+    "timestamp": 29.101,
+    "coluna": 1
+  },
+  {
+    "timestamp": 29.137,
+    "coluna": 2
+  },
+  {
+    "timestamp": 30.858,
+    "coluna": 3
+  },
+  {
+    "timestamp": 31.741,
+    "coluna": 4
+  },
+  {
+    "timestamp": 33.475,
+    "coluna": 3
+  },
+  {
+    "timestamp": 35.517,
+    "coluna": 2
+  },
+  {
+    "timestamp": 36.252,
+    "coluna": 1
+  },
+  {
+    "timestamp": 39.003,
+    "coluna": 2
+  },
+  {
+    "timestamp": 40.08,
+    "coluna": 3
+  },
+  {
+    "timestamp": 41.17,
+    "coluna": 4
+  },
+  {
+    "timestamp": 41.712,
+    "coluna": 3
+  },
+  {
+    "timestamp": 41.835,
+    "coluna": 2
+  },
+  {
+    "timestamp": 41.847,
+    "coluna": 1
+  },
+  {
+    "timestamp": 41.861,
+    "coluna": 2
+  },
+  {
+    "timestamp": 41.876,
+    "coluna": 3
+  },
+  {
+    "timestamp": 44.486,
+    "coluna": 4
+  },
+  {
+    "timestamp": 44.522,
+    "coluna": 3
+  },
+  {
+    "timestamp": 46.074,
+    "coluna": 2
+  },
+  {
+    "timestamp": 46.091,
+    "coluna": 1
+  },
+  {
+    "timestamp": 46.583,
+    "coluna": 2
+  },
+  {
+    "timestamp": 47.239,
+    "coluna": 3
+  },
+  {
+    "timestamp": 47.279,
+    "coluna": 4
+  },
+  {
+    "timestamp": 48.821,
+    "coluna": 3
+  },
+  {
+    "timestamp": 48.84,
+    "coluna": 2
+  },
+  {
+    "timestamp": 48.86,
+    "coluna": 1
+  },
+  {
+    "timestamp": 50.208,
+    "coluna": 2
+  },
+  {
+    "timestamp": 51.239,
+    "coluna": 3
+  },
+  {
+    "timestamp": 52.052,
+    "coluna": 4
+  },
+  {
+    "timestamp": 52.748,
+    "coluna": 3
+  },
+  {
+    "timestamp": 52.924,
+    "coluna": 2
+  },
+  {
+    "timestamp": 52.935,
+    "coluna": 1
+  },
+  {
+    "timestamp": 55.547,
+    "coluna": 2
+  },
+  {
+    "timestamp": 55.628,
+    "coluna": 3
+  },
+  {
+    "timestamp": 55.631,
+    "coluna": 4
+  },
+  {
+    "timestamp": 61.041,
+    "coluna": 3
+  },
+  {
+    "timestamp": 61.061,
+    "coluna": 2
+  },
+  {
+    "timestamp": 61.11,
+    "coluna": 1
+  },
+  {
+    "timestamp": 62.881,
+    "coluna": 2
+  },
+  {
+    "timestamp": 62.902,
+    "coluna": 3
+  },
+  {
+    "timestamp": 62.912,
+    "coluna": 4
+  },
+  {
+    "timestamp": 62.914,
+    "coluna": 3
+  },
+  {
+    "timestamp": 63.105,
+    "coluna": 2
+  },
+  {
+    "timestamp": 63.8,
+    "coluna": 1
+  },
+  {
+    "timestamp": 63.803,
+    "coluna": 2
+  },
+  {
+    "timestamp": 63.824,
+    "coluna": 3
+  },
+  {
+    "timestamp": 63.848,
+    "coluna": 4
+  },
+  {
+    "timestamp": 63.96,
+    "coluna": 3
+  },
+  {
+    "timestamp": 66.541,
+    "coluna": 2
+  },
+  {
+    "timestamp": 66.575,
+    "coluna": 1
+  },
+  {
+    "timestamp": 66.598,
+    "coluna": 2
+  },
+  {
+    "timestamp": 68.094,
+    "coluna": 3
+  },
+  {
+    "timestamp": 68.117,
+    "coluna": 4
+  },
+  {
+    "timestamp": 69.316,
+    "coluna": 3
+  },
+  {
+    "timestamp": 69.338,
+    "coluna": 2
+  },
+  {
+    "timestamp": 69.358,
+    "coluna": 1
+  },
+  {
+    "timestamp": 69.422,
+    "coluna": 2
+  },
+  {
+    "timestamp": 74.156,
+    "coluna": 3
+  },
+  {
+    "timestamp": 74.899,
+    "coluna": 4
+  },
+  {
+    "timestamp": 81.589,
+    "coluna": 3
+  },
+  {
+    "timestamp": 82.512,
+    "coluna": 2
+  },
+  {
+    "timestamp": 82.533,
+    "coluna": 1
+  },
+  {
+    "timestamp": 82.556,
+    "coluna": 2
+  },
+  {
+    "timestamp": 83.097,
+    "coluna": 3
+  },
+  {
+    "timestamp": 83.115,
+    "coluna": 4
+  },
+  {
+    "timestamp": 83.132,
+    "coluna": 3
+  },
+  {
+    "timestamp": 83.169,
+    "coluna": 2
+  },
+  {
+    "timestamp": 83.186,
+    "coluna": 1
+  },
+  {
+    "timestamp": 83.206,
+    "coluna": 2
+  },
+  {
+    "timestamp": 83.222,
+    "coluna": 3
+  },
+  {
+    "timestamp": 84.143,
+    "coluna": 4
+  },
+  {
+    "timestamp": 84.497,
+    "coluna": 3
+  },
+  {
+    "timestamp": 84.568,
+    "coluna": 2
+  },
+  {
+    "timestamp": 84.588,
+    "coluna": 1
+  },
+  {
+    "timestamp": 84.682,
+    "coluna": 2
+  },
+  {
+    "timestamp": 84.702,
+    "coluna": 3
+  },
+  {
+    "timestamp": 84.719,
+    "coluna": 4
+  },
+  {
+    "timestamp": 84.743,
+    "coluna": 3
+  },
+  {
+    "timestamp": 84.751,
+    "coluna": 2
+  },
+  {
+    "timestamp": 84.787,
+    "coluna": 1
+  },
+  {
+    "timestamp": 85.855,
+    "coluna": 2
+  },
+  {
+    "timestamp": 85.879,
+    "coluna": 3
+  },
+  {
+    "timestamp": 85.905,
+    "coluna": 4
+  },
+  {
+    "timestamp": 88.6,
+    "coluna": 3
+  },
+  {
+    "timestamp": 89.678,
+    "coluna": 2
+  },
+  {
+    "timestamp": 91.409,
+    "coluna": 1
+  },
+  {
+    "timestamp": 95.175,
+    "coluna": 2
+  },
+  {
+    "timestamp": 95.252,
+    "coluna": 3
+  },
+  {
+    "timestamp": 96.234,
+    "coluna": 4
+  },
+  {
+    "timestamp": 96.265,
+    "coluna": 3
+  },
+  {
+    "timestamp": 96.303,
+    "coluna": 2
+  },
+  {
+    "timestamp": 99.635,
+    "coluna": 1
+  },
+  {
+    "timestamp": 99.652,
+    "coluna": 2
+  },
+  {
+    "timestamp": 99.67,
+    "coluna": 3
+  },
+  {
+    "timestamp": 100.146,
+    "coluna": 4
+  },
+  {
+    "timestamp": 100.164,
+    "coluna": 3
+  },
+  {
+    "timestamp": 100.183,
+    "coluna": 2
+  },
+  {
+    "timestamp": 101.366,
+    "coluna": 1
+  },
+  {
+    "timestamp": 107.927,
+    "coluna": 2
+  },
+  {
+    "timestamp": 107.951,
+    "coluna": 3
+  },
+  {
+    "timestamp": 107.973,
+    "coluna": 4
+  },
+  {
+    "timestamp": 107.992,
+    "coluna": 3
+  },
+  {
+    "timestamp": 108.012,
+    "coluna": 2
+  },
+  {
+    "timestamp": 108.036,
+    "coluna": 1
+  },
+  {
+    "timestamp": 108.066,
+    "coluna": 2
+  },
+  {
+    "timestamp": 108.948,
+    "coluna": 3
+  },
+  {
+    "timestamp": 110.666,
+    "coluna": 4
+  },
+  {
+    "timestamp": 110.856,
+    "coluna": 3
+  },
+  {
+    "timestamp": 110.871,
+    "coluna": 2
+  },
+  {
+    "timestamp": 110.945,
+    "coluna": 1
+  },
+  {
+    "timestamp": 111.726,
+    "coluna": 2
+  },
+  {
+    "timestamp": 111.732,
+    "coluna": 3
+  },
+  {
+    "timestamp": 111.772,
+    "coluna": 4
+  },
+  {
+    "timestamp": 115.617,
+    "coluna": 3
+  },
+  {
+    "timestamp": 116.187,
+    "coluna": 2
+  },
+  {
+    "timestamp": 116.207,
+    "coluna": 1
+  },
+  {
+    "timestamp": 116.244,
+    "coluna": 2
+  },
+  {
+    "timestamp": 116.257,
+    "coluna": 3
+  },
+  {
+    "timestamp": 117.933,
+    "coluna": 4
+  },
+  {
+    "timestamp": 117.95,
+    "coluna": 3
+  },
+  {
+    "timestamp": 120.648,
+    "coluna": 2
+  },
+  {
+    "timestamp": 120.972,
+    "coluna": 1
+  },
+  {
+    "timestamp": 123.732,
+    "coluna": 2
+  },
+  {
+    "timestamp": 132.771,
+    "coluna": 3
+  },
+  {
+    "timestamp": 134.629,
+    "coluna": 4
+  },
+  {
+    "timestamp": 134.769,
+    "coluna": 3
+  },
+  {
+    "timestamp": 134.895,
+    "coluna": 2
+  },
+  {
+    "timestamp": 138.78,
+    "coluna": 1
+  },
+  {
+    "timestamp": 139.307,
+    "coluna": 2
+  },
+  {
+    "timestamp": 139.345,
+    "coluna": 3
+  },
+  {
+    "timestamp": 146.541,
+    "coluna": 4
+  },
+  {
+    "timestamp": 149.333,
+    "coluna": 3
+  },
+  {
+    "timestamp": 149.388,
+    "coluna": 2
+  },
+  {
+    "timestamp": 149.4,
+    "coluna": 1
+  },
+  {
+    "timestamp": 150.874,
+    "coluna": 2
+  },
+  {
+    "timestamp": 150.88,
+    "coluna": 3
+  },
+  {
+    "timestamp": 151.34,
+    "coluna": 4
+  },
+  {
+    "timestamp": 152.018,
+    "coluna": 3
+  },
+  {
+    "timestamp": 153.743,
+    "coluna": 2
+  },
+  {
+    "timestamp": 154.778,
+    "coluna": 1
+  },
+  {
+    "timestamp": 154.871,
+    "coluna": 2
+  },
+  {
+    "timestamp": 154.88,
+    "coluna": 3
+  },
+  {
+    "timestamp": 154.883,
+    "coluna": 4
+  },
+  {
+    "timestamp": 155.063,
+    "coluna": 3
+  },
+  {
+    "timestamp": 155.096,
+    "coluna": 2
+  },
+  {
+    "timestamp": 155.127,
+    "coluna": 1
+  },
+  {
+    "timestamp": 156.521,
+    "coluna": 2
+  },
+  {
+    "timestamp": 156.87,
+    "coluna": 3
+  },
+  {
+    "timestamp": 159.243,
+    "coluna": 4
+  },
+  {
+    "timestamp": 159.266,
+    "coluna": 3
+  },
+  {
+    "timestamp": 162.449,
+    "coluna": 2
+  },
+  {
+    "timestamp": 162.468,
+    "coluna": 1
+  },
+  {
+    "timestamp": 162.482,
+    "coluna": 2
+  },
+  {
+    "timestamp": 162.5,
+    "coluna": 3
+  },
+  {
+    "timestamp": 168.258,
+    "coluna": 4
+  },
+  {
+    "timestamp": 170.7,
+    "coluna": 3
+  },
+  {
+    "timestamp": 170.721,
+    "coluna": 2
+  },
+  {
+    "timestamp": 170.74,
+    "coluna": 1
+  },
+  {
+    "timestamp": 170.76,
+    "coluna": 2
+  },
+  {
+    "timestamp": 170.782,
+    "coluna": 3
+  },
+  {
+    "timestamp": 170.802,
+    "coluna": 4
+  },
+  {
+    "timestamp": 170.826,
+    "coluna": 3
+  },
+  {
+    "timestamp": 170.848,
+    "coluna": 2
+  },
+  {
+    "timestamp": 171.959,
+    "coluna": 1
+  },
+  {
+    "timestamp": 174.192,
+    "coluna": 2
+  },
+  {
+    "timestamp": 174.969,
+    "coluna": 3
+  },
+  {
+    "timestamp": 177.856,
+    "coluna": 4
+  },
+  {
+    "timestamp": 177.868,
+    "coluna": 3
+  },
+  {
+    "timestamp": 177.887,
+    "coluna": 2
+  },
+  {
+    "timestamp": 182.364,
+    "coluna": 1
+  },
+  {
+    "timestamp": 184.457,
+    "coluna": 2
+  },
+  {
+    "timestamp": 184.507,
+    "coluna": 3
+  },
+  {
+    "timestamp": 184.524,
+    "coluna": 4
+  },
+  {
+    "timestamp": 184.577,
+    "coluna": 3
+  },
+  {
+    "timestamp": 187.89,
+    "coluna": 2
+  },
+  {
+    "timestamp": 187.922,
+    "coluna": 1
+  },
+  {
+    "timestamp": 190.633,
+    "coluna": 2
+  },
+  {
+    "timestamp": 190.71,
+    "coluna": 3
+  },
+  {
+    "timestamp": 194.437,
+    "coluna": 4
+  },
+  {
+    "timestamp": 194.453,
+    "coluna": 3
+  },
+  {
+    "timestamp": 194.469,
+    "coluna": 2
+  },
+  {
+    "timestamp": 194.509,
+    "coluna": 1
+  },
+  {
+    "timestamp": 194.933,
+    "coluna": 2
+  },
+  {
+    "timestamp": 197.189,
+    "coluna": 3
+  },
+  {
+    "timestamp": 197.63,
+    "coluna": 4
+  },
+  {
+    "timestamp": 198.93,
+    "coluna": 3
+  },
+  {
+    "timestamp": 199.938,
+    "coluna": 2
+  },
+  {
+    "timestamp": 199.974,
+    "coluna": 1
+  },
+  {
+    "timestamp": 199.996,
+    "coluna": 2
+  },
+  {
+    "timestamp": 200.029,
+    "coluna": 3
+  },
+  {
+    "timestamp": 200.064,
+    "coluna": 4
+  },
+  {
+    "timestamp": 200.083,
+    "coluna": 3
+  },
+  {
+    "timestamp": 200.12,
+    "coluna": 2
+  },
+  {
+    "timestamp": 223.706,
+    "coluna": 1
+  },
+  {
+    "timestamp": 223.731,
+    "coluna": 2
+  }
+]
